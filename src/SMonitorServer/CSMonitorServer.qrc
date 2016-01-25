@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/close.png</file>
+        <file>Resources/blue.css</file>
+        <file>Resources/fontawesome-webfont.ttf</file>
+        <file>Resources/close_enter.png</file>
+        <file>Resources/close_normal.png</file>
+        <file>Resources/close_pressed.png</file>
+        <file>Resources/mini_enter.png</file>
+        <file>Resources/mini_normal.png</file>
+        <file>Resources/mini_pressed.png</file>
+        <file>Resources/normal.png</file>
+        <file>Resources/update.png</file>
+        <file>Resources/login.png</file>
+        <file>Resources/exit.png</file>
+        <file>Resources/help.png</file>
+        <file>Resources/hidden.png</file>
+        <file>Resources/show.png</file>
+        <file>Resources/downplus.png</file>
+        <file>Resources/minus.png</file>
+        <file>Resources/plus.png</file>
+        <file>Resources/checkbox_checked.png</file>
+        <file>Resources/checkbox_unchecked.png</file>
+        <file>Resources/background_login.png</file>
+        <file>Resources/key.png</file>
+        <file>Resources/maxi_enter.png</file>
+        <file>Resources/maxi_normal.png</file>
+        <file>Resources/maxi_pressed.png</file>
+    </qresource>
+</RCC>

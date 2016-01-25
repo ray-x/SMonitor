@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/close.png</file>
+        <file>Resources/blue.css</file>
+        <file>Resources/background_login.png</file>
+        <file>Resources/close_enter.png</file>
+        <file>Resources/close_normal.png</file>
+        <file>Resources/close_pressed.png</file>
+        <file>Resources/exit.png</file>
+        <file>Resources/fontawesome-webfont.ttf</file>
+        <file>Resources/help.png</file>
+        <file>Resources/hidden.png</file>
+        <file>Resources/login.png</file>
+        <file>Resources/mini_enter.png</file>
+        <file>Resources/mini_normal.png</file>
+        <file>Resources/mini_pressed.png</file>
+        <file>Resources/normal.png</file>
+        <file>Resources/show.png</file>
+        <file>Resources/update.png</file>
+        <file>Resources/loading6.gif</file>
+        <file>Resources/ie.png</file>
+        <file>Resources/crossrun.png</file>
+    </qresource>
+</RCC>

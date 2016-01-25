@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SMonitorClient", "src\SMonitorClient\SMonitorClient.vcxproj", "{AC94B08D-5239-4714-AF2D-51DDF8474882}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SMonitorServer", "src\SMonitorServer\SMonitorServer.vcxproj", "{B6796648-539A-4700-BF77-50B3F77D6348}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataImport", "src\DataImport\DataImport.vcxproj", "{7D03A405-DE0B-4031-BDA8-A5B317284EDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC94B08D-5239-4714-AF2D-51DDF8474882}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC94B08D-5239-4714-AF2D-51DDF8474882}.Debug|Win32.Build.0 = Debug|Win32
+		{AC94B08D-5239-4714-AF2D-51DDF8474882}.Release|Win32.ActiveCfg = Release|Win32
+		{AC94B08D-5239-4714-AF2D-51DDF8474882}.Release|Win32.Build.0 = Release|Win32
+		{B6796648-539A-4700-BF77-50B3F77D6348}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B6796648-539A-4700-BF77-50B3F77D6348}.Debug|Win32.Build.0 = Debug|Win32
+		{B6796648-539A-4700-BF77-50B3F77D6348}.Release|Win32.ActiveCfg = Release|Win32
+		{B6796648-539A-4700-BF77-50B3F77D6348}.Release|Win32.Build.0 = Release|Win32
+		{7D03A405-DE0B-4031-BDA8-A5B317284EDA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D03A405-DE0B-4031-BDA8-A5B317284EDA}.Debug|Win32.Build.0 = Debug|Win32
+		{7D03A405-DE0B-4031-BDA8-A5B317284EDA}.Release|Win32.ActiveCfg = Release|Win32
+		{7D03A405-DE0B-4031-BDA8-A5B317284EDA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = qtbase
+	EndGlobalSection
+EndGlobal

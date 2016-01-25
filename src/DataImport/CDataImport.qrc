@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/CDataImport">
+        <file>Resources/import.png</file>
+    </qresource>
+</RCC>

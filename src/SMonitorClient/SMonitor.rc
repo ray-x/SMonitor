@@ -1,0 +1,8 @@
+# if defined(UNDER_CE)
+#  include <winbase.h>
+# else
+#  include <winver.h>
+# endif
+
+IDI_ICON1	ICON	DISCARDABLE	"SMonitor.ico"
+

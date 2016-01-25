@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{94476caa-d0f6-476c-818a-a9060e140450}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{b4acb8c4-a46e-481b-b395-d788ce48be84}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="share">
+      <UniqueIdentifier>{f5650dae-598b-4bc2-af96-363e42a7d0ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http">
+      <UniqueIdentifier>{a477db4e-c23e-4c3f-ab33-eaf311f60ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{3e82514b-7e02-48a8-94be-cdb00a4cd8e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{4a73967b-cc3c-4d99-8793-5741f9e09125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message">
+      <UniqueIdentifier>{1956f660-d095-4157-a367-b41305dfdbfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DownloadRC">
+      <UniqueIdentifier>{b6e9b838-d560-49ef-b15e-cbefb0ba676e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Login">
+      <UniqueIdentifier>{3fedcd9d-caa3-415e-a157-330855d24453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decompress">
+      <UniqueIdentifier>{e0b4a0da-93cf-4a6e-9b0c-a85704c5379d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Splash">
+      <UniqueIdentifier>{c112fb23-f185-4054-b2e6-99c8f4a017a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Category">
+      <UniqueIdentifier>{0229dde4-5166-43fb-a731-98840a5f2158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Access">
+      <UniqueIdentifier>{2040840b-ebf3-48c4-bab8-0614ecbd70e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSMonitorClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CSMonitorClient.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CSMonitorClient.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_CSMonitorClient.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSystemTrayIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CSystemTrayIcon.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CSystemTrayIcon.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitleWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CTitleWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CTitleWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CStateButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CStateButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CSideBarWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CSideBarWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CSideBarWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CPushButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CPushButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CPushButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CHTTPDownloader.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CHTTPDownloader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CHTTPDownloader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="HTTPComm.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="SMonitorApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CHomePageWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMisc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogBase.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="LogManager.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMessage.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SMonitorServer\CNetMessage.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CMessageFactory.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CMessageFactory.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CMessageFactory.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CLogininMessage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CLogininMessage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogininMessage.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CMessageEventMediator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CMessageEventMediator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CMessageEventMediator.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="CFlowLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CRegisterIdMessage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CRegisterIdMessage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CRegisterIdMessage.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CMessageDataMediator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CMessageDataMediator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CMessageDataMediator.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="NetClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NetClass.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NetClass.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CRequestXmlMessage.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CRequestXmlMessage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CRequestXmlMessage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CListWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CListWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CListWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CTableWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CTableWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CTableWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CModifyIdMessage.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CModifyIdMessage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CModifyIdMessage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoftInstallMessage.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CSoftInstallMessage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CSoftInstallMessage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CDownloadCM.cpp">
+      <Filter>DownloadRC</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CDownloadCM.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CDownloadCM.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoftTabWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CSoftTabWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CSoftTabWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CNoFocusDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoftUpdateWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CSoftUpdateWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CSoftUpdateWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoftItemWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CSoftItemWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CSoftItemWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoginDialog.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CLoginDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CLoginDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CHelpInfoWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CHelpInfoWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CHelpInfoWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CDecompressThread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CDecompressThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CDecompressThread.cpp">
+      <Filter>Decompress</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CSoftManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CSoftManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoftManager.cpp">
+      <Filter>DownloadRC</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CSoftInstallResultSendTh.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CSoftInstallResultSendTh.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoftInstallResultSendTh.cpp">
+      <Filter>DownloadRC</Filter>
+    </ClCompile>
+    <ClCompile Include="CSplashscreen.cpp">
+      <Filter>Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientLog.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LogBase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LogBase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CClientLog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CClientLog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HTTPComm.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HTTPComm.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CMessage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CMessage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SrvException.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedMemoryPool.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NetClt.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NetClt.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="NetClt.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="CRequestHelpInfoMessage.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CRequestHelpInfoMessage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CRequestHelpInfoMessage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CDistributeMessage.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CDistributeMessage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CDistributeMessage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CRequestMsgMessage.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CRequestMsgMessage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CRequestMsgMessage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCategoryBase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCategoryBase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CCategoryBase.cpp">
+      <Filter>Category</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CDriverCategory.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CDriverCategory.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CERPCategory.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CERPCategory.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CERPCategory.cpp">
+      <Filter>Category</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CWebCategory.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CWebCategory.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CWebCategory.cpp">
+      <Filter>Category</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CCategoryFactory.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CCategoryFactory.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CCategoryFactory.cpp">
+      <Filter>Category</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_COtherCategory.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_COtherCategory.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="COtherCategory.cpp">
+      <Filter>Category</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CHomePageWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CHomePageWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoftUploadMessage.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CSoftUploadMessage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CSoftUploadMessage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CBrandList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CBrandList.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CBrandList.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CDriverCategory.cpp">
+      <Filter>Category</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AccessHelper.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AccessHelper.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AccessHelper.cpp">
+      <Filter>Access</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManage.cpp">
+      <Filter>Access</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CSMonitorClient.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CSMonitorClient.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CSystemTrayIcon.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CTitleWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CStateButton.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CSideBarWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CPushButton.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CHTTPDownloader.h">
+      <Filter>http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="HTTPComm.h">
+      <Filter>http</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CHomePageWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CHomePageWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LogBase.h">
+      <Filter>Log</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CClientLog.h">
+      <Filter>Log</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMessage.h">
+      <Filter>Message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMessageFactory.h">
+      <Filter>Message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CLogininMessage.h">
+      <Filter>Message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMessageEventMediator.h">
+      <Filter>Message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CRegisterIdMessage.h">
+      <Filter>Message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CMessageDataMediator.h">
+      <Filter>Message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NetClass.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CRequestXmlMessage.h">
+      <Filter>Message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CListWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CTableWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CModifyIdMessage.h">
+      <Filter>Message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CSoftInstallMessage.h">
+      <Filter>Message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CDownloadCM.h">
+      <Filter>DownloadRC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CSoftTabWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CNoFocusDelegate.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CSoftUpdateWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CSoftItemWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CLoginDialog.h">
+      <Filter>Login</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LoginIn.ui">
+      <Filter>Login</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CHelpInfoWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CHelpInfoWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CDecompressThread.h">
+      <Filter>Decompress</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CSoftManager.h">
+      <Filter>DownloadRC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CSoftInstallResultSendTh.h">
+      <Filter>DownloadRC</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CSplashscreen.h">
+      <Filter>Splash</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NetClt.h">
+      <Filter>Net</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CRequestHelpInfoMessage.h">
+      <Filter>Message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CDistributeMessage.h">
+      <Filter>Message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CRequestMsgMessage.h">
+      <Filter>Message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CCategoryBase.h">
+      <Filter>Category</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CDriverCategory.h">
+      <Filter>Category</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CERPCategory.h">
+      <Filter>Category</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CWebCategory.h">
+      <Filter>Category</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CCategoryFactory.h">
+      <Filter>Category</Filter>
+    </CustomBuild>
+    <CustomBuild Include="COtherCategory.h">
+      <Filter>Category</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CSoftUploadMessage.h">
+      <Filter>Message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CBrandList.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AccessHelper.h">
+      <Filter>Access</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\common.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SMonitorApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_CHomePageWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMisc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogManager.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Markup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetStruct.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SMonitorServer\CNetMessage.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="CFlowLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LoginIn.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_CHelpInfoWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SrvException.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedMemoryPool.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="ResMemManager.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="ResMemThreadManager.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ZHead.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManage.h">
+      <Filter>Access</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SMonitor.rc" />
+  </ItemGroup>
+</Project>
